@@ -1,0 +1,37 @@
+Q1 -> What is a protocol stack, and how is it used in web development?
+
+    A protocol stack is a set of rules that enable devices connected on the internet to communicate with each other securely and efficiently.
+    All these stacks are built on top of each other which handle trasfer of data using physical connections
+    to securely transferring the data with encryption and everything in between.
+    Link layer > Network Layer > Transport Layer > Application Layer are the individual layers.
+    Link layer connects your device to the internet using ethernet or wirelessly.
+    Network layers helps find your device by assigning a unique ip address.
+    Transport layer decides how data packets will be transferred. accurately and slowly using TCP(chat messages) or fastly and unreliably using UDP(video calls).
+    Application layer has multiple protocols depending on functionality from HTTP and TLS to FTP etc.
+
+
+Q2 -> What are the different types of web servers, and how do they differ in terms of functionality and performance?
+
+    There are multiple types of web servers like DNS servers, File servers, Email server, Database server.
+    performace is dependent on their functionality as they all serve different types of resources.
+
+
+Q3 -> What is web hosting, and what are the different types of hosting services available for websites?
+
+    Web hosting is storing your website in a machine connected to internet (server) and making it accessible for users.
+    Shared, VPS, Dedicated, Cloud are the most popular ways of hosting your website.
+
+
+Q4 -> What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+
+    scaling refers to the ability to handle more users, network requests etc as the popularity of the application increases.
+    it ensures the website is fast and reliable even during high traffic scenarios.
+    vertical scaling is improving the resources of the server either by increasing cpu, ram or storage etc of said machine.
+    horizontal scaling is simply adding more machines to handle the load instead of improving the machine.
+
+
+Q5 -> What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings? 
+    
+    seo is the process of developing your website such that it ranks higher on search engines and get more visibility.
+    there are multiple factors on which seo rank is decided and we have to optimise on all specially the ones with higher weightage.
+    parameters like loading time, keywords, mobile friendly, backlinks etc are some of the common ones but there a lot more.
