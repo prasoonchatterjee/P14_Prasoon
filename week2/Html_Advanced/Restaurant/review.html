@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Restaurant Reviews</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="review.html">Add Review</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  <form>
+    <h2>Add Review</h2>
+    <div>
+
+      <label for="name">Name?:</label>
+      <input id="name"/>
+    </div>
+    <div>
+
+      <label for="restaurant">Restaurant?:</label>
+      <select id="restaurant">
+        <option>Main street Cafe</option>
+        <option>Greek House</option>
+      </select>
+    </div>
+    <div>
+
+      <label for="date">Date of visit?:</label>
+      <input id="date" type="date"/>
+    </div>
+    <div>
+
+      <label for="rating">Rating?:</label>
+      <input id="rating" type="number" min="1" max="5" value="5"/>
+    </div>
+    <div>
+
+      <label for="details">Details?:</label>
+      <input id="details"/>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <footer>
+    <p>&copy; 2022 Restaurant Reviews</p>
+  </footer>
+</body>
+</html>

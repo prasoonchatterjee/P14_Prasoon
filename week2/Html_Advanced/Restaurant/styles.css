@@ -1,0 +1,16 @@
+.checked {
+  color:orange;
+}
+nav ul {
+  display: flex;
+  padding:0px;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding-right:10px;
+}
+
+form div {
+  margin-bottom: 5px;
+}
