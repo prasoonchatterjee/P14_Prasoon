@@ -1,0 +1,67 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#BookList {
+  width:66vw;
+}
+
+#BookForm {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  border:1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#BookForm label {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  padding:2px;
+}
+
+#BookForm label input {
+  width:66%;
+}
+
+#BookForm button {
+  width:100px;
+  margin-top:10px;
+}
+#BookDetail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:10px;
+  text-align: center;
+}
+
+.Book {
+  border:1px solid black;
+  border-radius: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding:5px;
+  margin-top:10px;
+  align-items: center;
+}
+
+.Book button {
+  margin:5px;
+}
+
+button {
+  padding:1px;
+}
